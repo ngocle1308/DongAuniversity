@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+#navbar .nav-link {
+  color: #fff;
+  transition: all 0.15s linear;
+}
+
+#navbar .nav-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Content */
+#content {
+  margin-top: 86px;
+}
+
+/* Slide show */
+#slideShow .slide-list {
+  max-height: 450px;
+}
+/* introduce */
+#introduce .intro-icon-link {
+  padding: 8px 0;
+  color: #28a745;
+  font-size: 23px;
+}
+/* footer */
+#footer .footer-icon-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 32px;
+  transition: color 0.15s linear;
+}
+#footer .footer-icon-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
